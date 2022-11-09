@@ -1,0 +1,43 @@
+/* Write your CSS here */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.comments-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.input-name {
+  padding: 10px;
+  border-radius: 7px;
+  border-width: 1px;
+  width: 100%;
+  margin-bottom: 5px;
+}
+.input-des {
+  padding: 25px;
+  border-radius: 7px;
+  border-width: 1px;
+  width: 100%;
+}
+.button {
+  background-color: #0284c7;
+  color: #ffffff;
+  border-radius: 7px;
+  border-width: 0px;
+  padding: 5px;
+  margin-top: 5px;
+}
+.count {
+  background-color: #0284c7;
+  color: #ffffff;
+  padding: 5px;
+  border-radius: 7px;
+  border-width: 0px;
+  margin-right: 5px;
+  text-align: center;
+}
